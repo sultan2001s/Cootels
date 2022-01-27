@@ -1,0 +1,139 @@
+.customer{
+  padding: 80px 0 80px;
+  text-align: center;
+  &__content{
+    width: 100%;
+    &-img{
+      margin: 82px 0 44px;
+      width: 120px;
+      height: 120px;
+    }
+    &-deser{
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 150%;
+      color: #192252;
+      margin-top: 40px;
+    }
+  }
+  &-next{
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .customer{
+    .swiper{
+      
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .customer{
+    padding: 48px 0 55px;
+    .title {
+      font-size: 33px;
+    }
+    .text {
+      font-size: 19px;
+      line-height: 150%;
+    }
+    .customer__content-img {
+      margin: 59px 0 33px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .customer{
+    .text {
+      font-size: 16px;
+      line-height: 150%;
+    }
+    .title {
+      font-size: 29px;
+    }
+    &__content-deser {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #192252;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .customer{
+    .text {
+      font-size: 13px;
+      line-height: 150%;
+    }
+    .title {
+      font-size: 24px;
+    }
+    &__content-deser {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: #192252;
+      margin-top: 20px;
+    }
+    &__content-img {
+      margin: 82px 0 44px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .customer{
+    .text {
+      font-size: 9px;
+      line-height: 150%;
+    }
+    .title {
+      font-size: 18px;
+    }
+    &__content-deser {
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 150%;
+      color: #192252;
+      margin-top: 20px;
+    }
+    &__content-img {
+      margin: 82px 0 44px;
+      width: 78px;
+      height: 78px;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  .customer{
+    .text {
+      font-size: 5px;
+      line-height: 150%;
+    }
+    .title {
+      font-size: 10px;
+    }
+    &__content-deser {
+      font-weight: 500;
+      font-size: 9px;
+      line-height: 150%;
+      color: #192252;
+      margin-top: 20px;
+    }
+    &__content-img {
+      width: 64px;
+      height: 64px;
+    }
+    .customer__content-img {
+      margin: 7px 0 7px;
+    }
+  }
+}
